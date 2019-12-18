@@ -18,11 +18,12 @@ Dotenv.load
 subdomain    = ENV["ZENDESK_SUBDOMAIN"]
 mail         = ENV["ZENDESK_MAIL_ADDRESS"]
 access_token = ENV["ZENDESK_ACCESS_TOKEN"]
-output_file = "requesters_#{begin_at}_#{end_at}.tsv"
 
 ## params
 begin_at = "2019-11-01"
 end_at   = "2019-12-01"
+
+output_file = "requesters_#{begin_at}_#{end_at}.tsv"
 
 begin_datetime = DateTime.parse(begin_at)
 end_datetime = DateTime.parse(end_at)
