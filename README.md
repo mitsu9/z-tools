@@ -21,3 +21,9 @@ $ bundle exec ruby scripts/views.rb
 ```
 $ bundle exec ruby scripts/requesters.rb
 ```
+
+## コメント送信
+チケットにコメントを送信します.
+```
+$ bundle exec ruby scripts/reply.rb
+```
